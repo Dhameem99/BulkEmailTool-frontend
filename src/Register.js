@@ -9,7 +9,7 @@ function Register() {
  let [email,setEmail]= useState("")
  let [password,setPassword] = useState("")
 
- let url ="https://bulkemailtool-backend-he8u.onrender.com";
+ let url ="https://bulkemailtool-backend-he8u.onrender.com/bmail/compose";
  
  function handleClick(val){
     val.preventDefault();
