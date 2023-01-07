@@ -23,7 +23,7 @@ function Dashboard() {
   return (
     <>
       <div className="d-sm-flex align-items-center justify-content-between mb-4">
-        <h1 className="h3 mb-0 text-gray-800">BULK MAIL-TOOL - Gives Unlimited Mails</h1>
+        <h1 className="h3 mb-0 text-gray-800">BULK MAIL-TOOL - Send Unlimited Mails</h1>
       </div>
       
       <div className="row">
