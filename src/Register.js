@@ -9,7 +9,7 @@ function Register() {
  let [email,setEmail]= useState("")
  let [password,setPassword] = useState("")
 
- let url ="http://localhost:4000/bmail/register";
+ let url ="https://bulkemailtool-backend-he8u.onrender.com";
  
  function handleClick(val){
     val.preventDefault();
