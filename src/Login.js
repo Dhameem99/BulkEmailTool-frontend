@@ -8,7 +8,7 @@ function Login() {
 let [userName,setUserName] = useState("");
 let [password,setPassword] = useState("");
 
-    let url = "http://localhost:4000/bmail/login";
+    let url = "https://bulkemailtool-backend-he8u.onrender.com";
 
  function handleClick(val){
    val.preventDefault();
