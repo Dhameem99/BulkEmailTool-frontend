@@ -7,7 +7,7 @@ function Dashboard() {
   let [to, setTo] = useState("");
   let [msg, setMsg] = useState("");
  
-  const url = "http://localhost:4000/bmail/compose";
+  const url = "https://bulkemailtool-backend-he8u.onrender.com";
   let data = {"From":from,"Service":service,"To":to,"Message":msg};
 
    function handleSubmit(val) {
